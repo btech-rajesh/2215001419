@@ -1,0 +1,26 @@
+@host=http://20.244.56.144
+
+POST {{host}}/evaluation-service/register
+Content-Type: application/json
+
+{
+    "email": "rajesh.kumar_cs22@gla.ac.in",
+    "name": "Rajesh Kumar",
+    "mobileNo": "8630394151",
+    "githubUsername":"btech-rajesh",
+    "rollNo":"2215001419",
+    "collegeName":"GLA University",
+    "accessCode":"CNneGT"
+}
+
+
+# {"email":"rajesh.kumar_cs22@gla.ac.in",
+# "name":"rajesh kumar",
+# "rollNo":"2215001419",
+# "accessCode":"CNneGT",
+# "clientID":"7e6a701d-32a7-4c03-8dff-f472f31c9ba7",
+# "clientSecret":"RFZKtskeQBfZkBHV"}
+
+
+
+
